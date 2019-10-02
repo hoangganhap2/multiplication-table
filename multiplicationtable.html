@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let simple="<table border='1'width='300' cellspacing='0' cellpadding='3'>";
+    for(j=1;j<=9;j++){
+
+        simple=simple+"<tr>";
+        for(i =2;i<=10;i++){
+           let result=i*j;
+           simple=simple+"<td>"+ i+"*"+j+"="+result+"</td>";
+
+       }
+       simple=simple+"</tr>";
+    }
+    simple=simple+"</table>";
+    document.write(simple);
+
+</script>
+</body>
+</html>
